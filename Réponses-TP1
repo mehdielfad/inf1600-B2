@@ -1,0 +1,40 @@
+Exercice 1:
+
+1.(a) 11110101 Binaire 245 Décimal
+  (b) 00101010 Binaire 42 Décimal
+  (c) 4517 Octal 2383 Décimal
+  (d) CAFE Hexadécimal 51966 Décimal
+  (e) 10000000 Binaire 128 Décimal
+
+2.(a) DEC HEX
+  (b) BIN OCT DEC HEX
+  (c) OCT DEC HEX
+  (d) HEX
+  (e) BIN OCT DEC HEX
+
+3.
+
+4.(a) -1234 Décimal 1111101100101110 Complément à deux -4D2 Hexadécimal
+  (b) 32767 Décimal 0111111111111111 Complément à deux 7FFF Hexadécimal
+  (c) -32 Décimal 1111111111100000 Complément à deux -20 Hexadécimal
+
+5.(a) 01111100 
+    + 01001111
+    = 11001011 = CB
+
+  (b) 10001001 
+    + 00010001
+    = 10011010 = 9A
+
+6.(a) Big-Endian: 194-187-056-160
+  (b) Little-Endian: 160-056-187-194
+
+Exercice 4:
+
+( IR<31..27> = 5 ) -> R[ IR<26..22>] <- (R[IR<26..22>] – R[IR<21..17>) * (IR[16..0] = 8]);
+
+
+( IR<31..27> = 13 ) ->( R[ IR<26..22>] <- R[IR<26..22>] – 1)  ( R[ IR<21..17>] <- R[IR<21..17>] – 1);
+
+
+
